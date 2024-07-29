@@ -1,0 +1,363 @@
+/* oubo.php調整用 */
+
+#apply{
+  margin:16px;
+}
+@media screen and (min-width:992px){
+  #apply{
+    width: 90%;
+    max-width: 1200px;
+    margin:24px auto;
+  }
+}
+
+#apply h2 img{
+  width: 56px;
+  height: 56px;
+  margin-right: 16px;
+}
+
+.attention{
+  background-color: rgb(255,255,255);
+  border:solid 1px rgb(5,5,5);
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+@media screen and (min-width:992px){
+  .attention{
+    justify-content: center;
+  }
+}
+
+.attention img{
+  width: 40px;
+  height: 40px;
+  margin-right:8px;
+}
+@media screen and (min-width:992px){
+  .attention img{
+    margin-right: 24px;
+  }
+}
+
+.attention p {
+  font-size: 14px;
+}
+
+.attention p span{
+  font-weight: 500;
+}
+
+.member{
+  padding:24px 8px;
+  background-color: rgb(255,255,255);
+  border-radius: 8px;
+  margin: 24px 0;
+}
+@media screen and (min-width:992px){
+  .member{
+    padding: 40px;
+  }
+}
+
+.member h4{
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 22px;
+}
+
+.member input{
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  line-height: 2.5;
+  border: solid 1px rgb(5,5,5);
+  border-radius: 8px;
+  margin:0 auto 16px auto;
+  padding: 0 8px;
+}
+@media screen and (min-width:992px){
+  .member input{
+    margin:0 auto 24px auto;
+  }
+}
+
+.apply-btn{
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 100px;
+  text-align: center;
+  line-height: 3;
+  margin: 24px auto;
+}
+@media screen and (min-width:992px){
+  .apply-btn{
+    margin: 40px auto;
+  }
+}
+
+.member ul{
+  list-style: none;
+  margin:0;
+  padding: 0;
+  font-size: 14px;
+}
+@media screen and (min-width:992px){
+  .member ul{
+    display: flex;
+    justify-content: center;
+  }
+  .member ul li:nth-child(1){
+    margin-right: 24px;
+  }
+}
+
+.member .member-lead{
+  margin: 56px 0 24px 0;
+  font-size: 24px;
+}
+.member .member-lead p{
+  font-size: 16px;
+}
+@media screen and (min-width:992px){
+  .member .member-lead{
+    margin: 80px 0 40px 0;
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width:992px){
+  .addmember{
+    box-shadow: 0 0 8px rgb(68,68,68);
+  }
+}
+
+.member h5{
+  background-color: #F7EE4D;
+  text-align: center;
+  line-height: 3;
+  width: calc(100vw - 32px);
+  margin: 0 0 0 -8px;
+  font-size: 20px;
+}
+@media screen and (min-width:992px){
+  .member h5{
+    width: 100%;
+    margin: 0;
+    text-align: left;
+    padding:0 40px;
+    border-left:solid 8px rgb(5,5,5);
+  }
+}
+
+.member img{
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 24px auto;
+}
+@media screen and (min-width:992px){
+  .member img{
+    margin: 0 auto 40px auto;
+  }
+}
+
+/* エラーページ */
+
+.error{
+  padding:24px 8px;
+  background-color: rgb(255,255,255);
+  border-radius: 8px;
+  margin: 24px 0;
+}
+@media screen and (min-width:992px){
+  .error{
+    padding: 40px;
+  }
+}
+
+.error h3{
+  text-align:center;
+  color: rgb(250,5,5);
+  font-size: 24px;
+  margin: 0 0 24px 0;
+}
+
+.error h3 + p{
+  text-align: center;
+  font-size: 18px;
+}
+@media screen and (min-width:992px){
+  .error h3 + p{
+    font-size: 20px;
+  }
+}
+
+.error ul{
+  list-style: none;
+  margin:24px 0;
+  padding: 0;
+  font-size: 14px;
+  text-align: center;
+}
+@media screen and (min-width:992px){
+  .error ul{
+    display: flex;
+    justify-content: center;
+  }
+  .error ul li:nth-child(1){
+    margin-right: 24px;
+  }
+}
+
+@media screen and (min-width:992px){
+  .error .btn-con{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.error .btn-con a{
+  display: block;
+  width: 100%;
+  line-height: 3;
+  text-align:center;
+  border-radius: 100px;
+}
+@media screen and (min-width:992px){
+  .error .btn-con a{
+    width: 48%;
+  }
+}
+
+.error .btn-con a:nth-child(1){
+  border:solid 1px rgb(5,5,5);
+  margin-bottom: 24px;
+}
+@media screen and (min-width:992px){
+  .error .btn-con a:nth-child(1){
+    margin: 0;
+  }
+}
+
+.error .btn-con a:nth-child(2){
+  background-color: #F7EE4D;
+}
+
+.error h4{
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 22px;
+}
+
+.error .member-lead{
+  margin: 56px 0 24px 0;
+  font-size: 24px;
+}
+.error .member-lead p{
+  font-size: 16px;
+}
+@media screen and (min-width:992px){
+  .error .member-lead{
+    margin: 80px 0 40px 0;
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width:992px){
+  .addmember{
+    box-shadow: 0 0 8px rgb(68,68,68);
+  }
+}
+
+.error h5{
+  background-color: #F7EE4D;
+  text-align: center;
+  line-height: 3;
+  width: calc(100vw - 32px);
+  margin: 0 0 0 -8px;
+  font-size: 20px;
+}
+@media screen and (min-width:992px){
+  .error h5{
+    width: 100%;
+    margin: 0;
+    text-align: left;
+    padding:0 40px;
+    border-left:solid 8px rgb(5,5,5);
+  }
+}
+
+.error img{
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 24px auto;
+}
+@media screen and (min-width:992px){
+  .error img{
+    margin: 0 auto 40px auto;
+  }
+}
+
+/* 終了画面 */
+
+#end{
+  margin:16px;
+  min-height: 50vh;
+}
+@media screen and (min-width:992px){
+  #end{
+    width: 90%;
+    max-width: 1200px;
+    margin:24px auto;
+  }
+}
+
+#end h3{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+@media screen and (min-width:992px){
+  #end h3{
+    font-size: 24px;
+  }
+}
+
+#end h3 + p{
+  text-align: center;
+  font-size: 18px;
+}
+@media screen and (min-width:992px){
+  #end h3 + p{
+    font-size: 20px;
+  }
+}
+
+#end .box{
+  border: solid 1px rgb(5,5,5);
+  border-radius: 16px;
+  margin: 40px 0;
+  padding:16px;
+  line-height: 2.5;
+  text-align: center;
+}
+@media screen and (min-width:992px){
+  #end .box{
+    padding: 24px;
+  }
+}
+
+#end .box a{
+  display: block;
+  width: 80%;
+  line-height: 3;
+  text-align:center;
+  background-color: rgb(68,68,68);
+  color: rgb(250,250,250);
+  border-radius: 100px;
+  margin: 24px auto;
+}

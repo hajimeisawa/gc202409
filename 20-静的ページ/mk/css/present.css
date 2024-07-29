@@ -1,0 +1,93 @@
+/* 賞品ページ調整用 */
+
+#present{
+  margin:16px;
+}
+@media screen and (min-width:992px){
+  #present{
+    width: 90%;
+    max-width: 1200px;
+    margin:24px auto;
+  }
+}
+
+#present h2 img{
+  width: 56px;
+  height: 56px;
+  margin-right: 16px;
+}
+
+#present > img{
+  width: 100%;
+  height:auto;
+  filter: drop-shadow(0 0 4px rgba(68,68,68,.5));
+  margin-bottom:24px;
+}
+
+#present .img-con {
+filter:drop-shadow( 0 0 4px rgba(68,68,68,.5));
+  margin-bottom:24px;
+}
+
+#present .img-con img{
+  width: 100%;
+  height: auto;
+}
+
+#button-con{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin:16px;
+  padding: 24px;
+}
+@media screen and (min-width:992px){
+  #button-con{
+    width: 90%;
+    max-width: 1200px;
+    margin:24px auto;
+  }
+}
+
+#button-con a{
+  display: block;
+  width: 100%;
+  line-height: 3;
+  border-radius: 100px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+@media screen and (min-width:992px){
+  #button-con a{
+    width: 48%;
+    line-height: 4;
+    transition: opacity .4s;
+  }
+  #button-con a:hover{
+    opacity: .5;
+  }
+}
+
+#button-con a:nth-child(1){
+  margin-bottom:32px;
+}
+
+ul.note{
+  list-style:none;
+  margin: 16px;
+  padding: 0;
+}
+@media screen and (min-width:992px){
+  ul.note{
+    width: 90%;
+    max-width: 1200px;
+    margin:24px auto;
+  }
+}
+
+ul.note li{
+  padding-left: 1em;
+  text-indent: -1em;
+}

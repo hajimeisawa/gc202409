@@ -1,0 +1,314 @@
+@media screen and (min-width:992px){
+	.sp{
+		display: none !important;
+	}
+  a,
+  img{
+    transition: opacity .4s;
+  }
+  a:hover,
+  a:hover img{
+    opacity: .7;
+  }
+}
+
+@media screen and (max-width:991px){
+	.pc{
+		display: none !important;
+	}
+}
+
+/* googleフォント（Noto） */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&family=Roboto:ital,wght@1,500&display=swap');
+
+h1{
+  font-weight: 500;
+  font-size:24px;
+}
+
+h2{
+  font-weight: 400;
+  font-size:20px;
+}
+
+* + h2{
+  margin-top: 16px;
+}
+
+h3{
+  font-weight: 400;
+  font-size:18px;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+  color: #202020;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  -webkit-text-size-adjust: 100%;
+  background-color: #fafafa;
+}
+
+a{
+  text-decoration: none;
+  color:rgb(5,5,5);
+}
+
+/* メインビジュアル */
+
+#mainvisual{
+  height:0;
+  background-image: url(../img/mv_pickup_slide/mainvisual-bg-sp.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 120%;
+}
+@media screen and (min-width:992px){
+  #mainvisual{
+    background-image: url(../img/mv_pickup_slide/mainvisual-bg-pc.jpg);
+    padding-bottom: 0;
+    height: 50vh;
+  }
+}
+
+#mainvisual>div.sp{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+#mainvisual>img{
+  width: auto;
+  max-width: 400px;
+  height: auto;
+  margin: 0 auto;
+}
+#mainvisual>div.pc{
+  width: auto;
+  max-width: 400px;
+  height: auto;
+  max-width: 100vw;
+  max-height: calc(100vh - 350px);
+  margin: 0 auto;
+}
+#mainvisual img{
+  position: absolute;
+  display: block;
+  width:100%;
+  max-width: 400px;
+  height:auto;
+  z-index: 1;
+}
+#mainvisual img.mv_bk{
+  position: absolute;
+  width:100%;
+  max-width: 400px;
+  height:auto;
+  z-index: 0;
+  mix-blend-mode: overlay;
+}
+@media screen and (min-width:992px){
+  #mainvisual>div.pc{
+    max-width: 800px;
+    max-height:calc(100vh - 500px);
+    min-height: 170px;
+    top:32px;
+  }
+  #mainvisual>img{
+    width: auto;
+    max-width: 400px;
+    height: auto;
+    max-width: 100vw;
+    max-height: calc(100vh - 350px);
+    margin: 0 auto;
+  }
+  #mainvisual img{
+    max-width: 800px;
+  }
+  #mainvisual img.mv_bk{
+    max-width: 800px;
+  }
+}
+
+/* COMINGSOON */
+
+.comingsoon{
+  margin:16px;
+  min-height: 50vh;
+}
+@media screen and (min-width:992px){
+  .comingsoon{
+    width: 90%;
+    max-width: 1200px;
+    margin:24px auto;
+  }
+}
+
+.comingsoon h1{
+  font-size: 40px;
+  filter: drop-shadow(4px 4px 4px rgba(68,68,68,.7));
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+@media screen and (min-width:992px){
+  .comingsoon h1{
+    font-size: 80px;
+  }
+}
+
+.comingsoon h1 + p{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.comingsoon h2{
+  border-top: solid 1px rgb(5,5,5);
+  border-bottom: solid 1px rgb(5,5,5);
+  margin: 24px 0;
+  padding: 24px 0;
+  text-align: center;
+}
+
+.comingsoon h2 + p{
+  text-align: center;
+  margin:40px 0;
+}
+
+/* フッター */
+
+footer{
+  background-color: rgb(68,68,68);
+  padding:16px 0 40px 0;
+}
+
+footer img{
+  display: block;
+  width: 24px;
+  height:24px;
+  margin:0 auto;
+}
+
+/* 画面右下に固定 */
+
+.follow-button{
+  width:56px;
+  height:56px;
+  position: fixed;
+  right:16px;
+  background-color: rgb(5,5,5);
+  border:solid 2px rgb(250,250,250);
+  border-radius: 100px;
+  filter: drop-shadow(0 6px 1px rgba(68,68,68,.5));
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.follow-button.appmember,
+.follow-button.appmember + p{
+  bottom:160px;
+}
+
+.follow-button.cart,
+.follow-button.cart + p{
+  bottom: 88px;
+}
+
+.follow-button img{
+  display: block;
+  width: 40px;
+  height:40px;
+}
+
+.follow-button + p{
+  width:auto;
+  height:56px;
+  position: fixed;
+  right:16px;
+  background-color: rgb(250,250,250);
+  border:solid 2px rgb(5,5,5);
+  border-radius: 100px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all .4s;
+  opacity: 0;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+}
+
+@media screen and (min-width:992px){
+  .follow-button:hover + p{
+    width:auto;
+    padding-right:56px;
+    padding-left:24px;
+    opacity: 1;
+  }
+}
+
+.follow-button:hover + p span{
+  color: rgb(250,5,5);
+}
+
+/* チャットボット調整 */
+
+.obotai-chatbot-controller{
+  width: 56px !important;
+  height: 56px !important;
+  right: 16px !important;
+  bottom: 16px !important;
+  filter: drop-shadow(0 6px 1px rgba(68,68,68,.5));
+
+  /* 以下9/16〜不要 */
+  background-image: url(../img/icon-chat.svg) !important;
+  /* 以上9/16〜不要 */
+}
+
+p#chatnote{
+  display: none;
+}
+
+@media screen and (min-width:992px){
+  p#chatnote.none{
+    display: block;
+    opacity: 0;
+    width: auto;
+    height: 56px;
+    line-height: 52px;
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    background-color: rgb(250,250,250);
+    border: solid 2px rgb(5,5,5);
+    border-radius: 100px;
+    z-index: 2;
+    transition: all .4s;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    padding: 0 56px 0 16px;
+    transition: all .4s;
+  }
+  p#chatnote.block{
+    width:auto;
+    padding-right:56px;
+    padding-left:24px;
+    opacity: 1;
+  }
+}
