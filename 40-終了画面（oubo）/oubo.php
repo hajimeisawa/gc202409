@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>応募する | 季節の商品がお得！アプリがお得！アクティブ！Summer SALE「マツキヨココカラ　アクティブ」</title>
-  <meta name="description" content="季節の商品がお得！アプリがお得！アクティブ！Summer SALE 2024/7/16(tue)〜2024/9/15(sun) 買い物するほど商品が豪華になる！キャンペーン実施中！何度も応募すれば、当選確率UP!対象商品を含む1,000円(税込)以上お買い上げのお客様に抽選でポイントまたは豪華賞品が当たる!さらに!マツモトキヨシ公式アプリ会員になると、当選確率3倍！">
+  <title>応募する | 季節の商品がお得！アプリがお得！秋を満喫！オータムSALE「マツキヨココカラ　オータム」</title>
+  <meta name="description" content="季節の商品がお得！アプリがお得！秋を満喫！オータムSALE 2024/9/16(mon)〜2024/11/15(fri) 買い物するほど商品が豪華になる！キャンペーン実施中！何度も応募すれば、当選確率UP!対象商品を含む1,000円(税込)以上お買い上げのお客様に抽選でポイントまたは豪華賞品が当たる!さらに!マツモトキヨシ公式アプリ会員になると、当選確率3倍！">
 
   <link rel="icon" href="favicon.ico">
 
@@ -44,7 +44,7 @@
         <li><a href="../index.html">対象商品</a></li>
         <li><a href="../top.html">概要</a></li>
         <li><a href="../present.html">賞品</a></li>
-        <li style="background-color: #D84190;"><a href="https://cp.matsukiyococokara-online.com/gc/202407/oubo.php" class="active_tab">応募する</a></li>
+        <li style="background-color: #D84190;"><a href="https://cp.matsukiyococokara-online.com/gc/202409/oubo.php" class="active_tab">応募する</a></li>
       </ul>
       <div class="hamburger-menu sp">
         <input type="checkbox" id="menu-btn-check">
@@ -60,7 +60,7 @@
                 <img src="img/icon-matsukiyo-white.svg" width="256" height="170" alt="トップ">
                 トップ
               </a>
-              <a class="icon" href="https://www.matsukiyococokara-online.com/store/catalog/campaign/search/campaign_id/GRP_202407/">
+              <a class="icon" href="https://www.matsukiyococokara-online.com/store/catalog/campaign/search/campaign_id/GRP_202409/">
                                 <img src="img/icon-cart-white.svg" width="256" height="181" alt="オンラインストア"> オンラインストア
                             </a>
               <a class="icon" href="https://www.matsukiyococokara-online.com/point/mkappli_op/">
@@ -68,7 +68,7 @@
                 アプリ会員登録
               </a>
             </li>
-            <li><a href="https://cp.matsukiyococokara-online.com/gc/202407/oubo.php">応募する</a></li>
+            <li><a href="https://cp.matsukiyococokara-online.com/gc/202409/oubo.php">応募する</a></li>
             <li><a href="index.html">対象商品</a></li>
             <li><a href="top.html">キャンペーン概要</a></li>
             <li><a href="present.html">賞品</a></li>
@@ -79,17 +79,17 @@
   </header>
   <main>
     <section id="mainvisual">
-    <div class="sp"><img src="img/mv_pickup_slide/mainvisual-text-sp.png" width="400" height="450" alt="対象商品購入で豪華賞品が当たる！アクティブ！Summer SALE 2024/7/16(tue)〜2024/9/15(sun)"><img src="img/mv_pickup_slide/mainvisual-text-sp_bk.png" class="mv_bk" width="400" height="450" alt="対象商品購入で豪華賞品が当たる！アクティブ！Summer SALE 2024/7/16(tue)〜2024/9/15(sun)"></div>
-      <div class="pc"><img src="img/mv_pickup_slide/mainvisual-text-pc.png" width="800" height="300" alt="対象商品購入で豪華賞品が当たる！アクティブ！Summer SALE 2024/7/16(tue)〜2024/9/15(sun)"><img src="img/mv_pickup_slide/mainvisual-text-pc_bk.png" width="800" height="300" alt="対象商品購入で豪華賞品が当たる！アクティブ！Summer SALE 2024/7/16(tue)〜2024/9/15(sun)" class="mv_bk"></div>
+    <div class="sp"><img src="img/mv_pickup_slide/mainvisual-text-sp.png" width="400" height="450" alt="対象商品購入で豪華賞品が当たる！秋を満喫！オータムSALE 2024/9/16(mon)〜2024/11/15(fri)"><img src="img/mv_pickup_slide/mainvisual-text-sp_bk.png" class="mv_bk" width="400" height="450" alt="対象商品購入で豪華賞品が当たる！秋を満喫！オータムSALE 2024/9/16(mon)〜2024/11/15(fri)"></div>
+      <div class="pc"><img src="img/mv_pickup_slide/mainvisual-text-pc.png" width="800" height="300" alt="対象商品購入で豪華賞品が当たる！秋を満喫！オータムSALE 2024/9/16(mon)〜2024/11/15(fri)"><img src="img/mv_pickup_slide/mainvisual-text-pc_bk.png" width="800" height="300" alt="対象商品購入で豪華賞品が当たる！秋を満喫！オータムSALE 2024/9/16(mon)〜2024/11/15(fri)" class="mv_bk"></div>
     </section>
 
     <section id="end">
       <h3>本キャンペーンは終了しました。</h3>
       <p>たくさんのご応募ありがとうございました！</p>
       <div class="box">
-        <h4>2024年9月16日(月)より、新しいキャンペーンを実施しています。</h4>
+        <h4>2024年11月16日(土)より、新しいキャンペーンを実施しています。</h4>
         <p>キャンペーン期間中、何度でもご応募いただけます。<br>ぜひ奮ってご応募ください！</p>
-        <a href="https://cp.matsukiyococokara-online.com/gc/202409/">新キャンペーンページへ</a>
+        <a href="https://cp.matsukiyococokara-online.com/gc/202411/">新キャンペーンページへ</a>
       </div>
     </section>
 
@@ -139,7 +139,7 @@
       <iframe id="displayFrame" src="" style="width:100%; height:100%;" frameborder="0"></iframe>
       <button id="closeIframe" style="position: absolute; top: 0; right: 20px;"></button>
       <button id="maximizeIframe" style="position: absolute; top: 0; right: 60px;"></button>
-      <a class="pc follow-button cart" href="https://www.matsukiyococokara-online.com/store/catalog/campaign/search/campaign_id/GRP_202407/">
+      <a class="pc follow-button cart" href="https://www.matsukiyococokara-online.com/store/catalog/campaign/search/campaign_id/GRP_202409/">
         <img src="img/icon-cart-white_2.svg" width="256" height="181" alt="オンラインストア">
       </div>
     </div>
