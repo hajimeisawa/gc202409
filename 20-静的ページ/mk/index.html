@@ -12,7 +12,7 @@
     function mk_device() {
       if (navigator.userAgent.indexOf("DoCoMo") >= 0 || (navigator.userAgent.indexOf("KDDI") >= 0 && navigator.userAgent.indexOf("Android") < 0 && navigator.userAgent.indexOf("iOS") < 0 && navigator.userAgent.indexOf("iPhone") < 0 && navigator.userAgent.indexOf("iPod") < 0 && navigator.userAgent.indexOf("iPad") < 0) || navigator.userAgent.indexOf("SoftBank") >= 0 || navigator.userAgent.indexOf("UP.Browser") >= 0) {
         var mobile_js_area = document.getElementById("mobile_js");
-        var mobile_text = "\nパソコン/スマートフォンの方はブラウザのJavaScript表示を有効にしてください。<br>\n<br>\n携帯電話の方は下記のURLからアクセスしてください。<br>\n<br>\n<a href=\"https://gc07.mkcf-campaign.com/apply/m/\"><span style=\"color: #0000ff;\">https://gc07.mkcf-campaign.com/apply/m/</span></a><br>";
+        var mobile_text = "\nパソコン/スマートフォンの方はブラウザのJavaScript表示を有効にしてください。<br>\n<br>\n携帯電話の方は下記のURLからアクセスしてください。<br>\n<br>\n<a href=\"https://gc09.mkcf-campaign.com/apply/m/\"><span style=\"color: #0000ff;\">https://gc09.mkcf-campaign.com/apply/m/</span></a><br>";
         mobile_js_area.innerHTML = mobile_text;
       } else {
         location.href = "list_search.html" + document.location.search;
