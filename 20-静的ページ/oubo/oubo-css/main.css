@@ -679,6 +679,7 @@ p#chatnote{
   border: 2px solid #fff;
   box-shadow: #ddd 3px 3px 0;
   font-weight: bold;
+  color: #000;/*20240819追加*/
 }
 #option2{
   background-color: transparent;
